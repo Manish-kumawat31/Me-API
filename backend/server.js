@@ -15,14 +15,13 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 // CORS - allow frontend origin (configure via env)
-const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN || "*";
+const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN;
 app.use(cors({
-  origin: (origin, callback) => {
-    if (!origin) return callback(null, true); // allow curl/postman
-    if (FRONTEND_ORIGIN === "*" || FRONTEND_ORIGIN === origin) return callback(null, true);
-    callback(new Error("CORS not allowed"));
-  }
+  origin: "https://me-api-coral.vercel.app",   
+  methods: "GET,POST,PUT,DELETE",             
+  credentials: true                           
 }));
+
 
 // Basic rate limit
 app.use(rateLimit({ windowMs: 60 * 1000, max: 200 }));
