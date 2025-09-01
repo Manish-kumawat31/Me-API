@@ -1,9 +1,9 @@
 # Me-API Playground (Track A: Backend Assessment)
 
 ## Live (replace after deploy)
-- Backend (API): https://<your-backend-url>
-- Frontend (UI): https://<your-frontend-url>
-- Resume: https://<your-resume-link>
+- Backend (API): [https://<your-backend-url>](https://me-api-zu8c.onrender.com)
+- Frontend (UI): [https://<your-frontend-url>](https://me-api-coral.vercel.app/)
+- Resume: https:[//<your-resume-link>](https://drive.google.com/file/d/1_nA9SMOdAKmiP-Zcv1zOJPo4qgBX53Ml/view?usp=sharing)
 
 ## Summary
 Small playground that stores my candidate profile in MongoDB and exposes APIs to create/read/update and query the data. Minimal frontend calls the API for profile, projects list, filtering, and search.
