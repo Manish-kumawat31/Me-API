@@ -41,19 +41,19 @@ See `backend/schema.md`.
 
 ## Sample cURL
 - Health:
-  `curl -i http://localhost:8080/health`
+  `curl -i https://me-api-coral.vercel.app/health`
 
 - Read profile:
-  `curl http://localhost:8080/profile | jq`
+  `curl https://me-api-coral.vercel.app/profile | jq`
 
 - Projects by skill:
-  `curl "http://localhost:8080/projects?skill=react" | jq`
+  `curl "https://me-api-coral.vercel.app/projects?skill=react" | jq`
 
 - Top skills:
-  `curl http://localhost:8080/skills/top | jq`
+  `curl [http://localhost:8080](https://me-api-coral.vercel.app//skills/top | jq`
 
 - Search:
-  `curl "http://localhost:8080/search?q=mern" | jq`
+  `curl "https://me-api-coral.vercel.app/search?q=mern" | jq`
 
 ## Known limitations
 - Single-profile single-document design (fine for assessment).
