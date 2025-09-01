@@ -15,9 +15,12 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 // CORS - allow frontend origin (configure via env)
-const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN;
+const FRONTEND_ORIGIN = [
+  process.env.FRONTEND_ORIGIN,
+  "https://me-api-coral.vercel.app",
+];
 app.use(cors({
-  origin: "https://me-api-coral.vercel.app",   
+  origin: FRONTEND_ORIGIN,   
   methods: "GET,POST,PUT,DELETE",             
   credentials: true                           
 }));
