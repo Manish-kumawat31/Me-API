@@ -1,0 +1,45 @@
+{
+  "name": "Manish Kumawat",
+  "email": "m31122004k@gmail.com",
+  "education": [
+    "SE Computer (Sem 5) - DY Patil College of Engineering (SPPU)"
+  ],
+  "skills": [
+    "javascript","nodejs","express","react","mongodb","mongoose","tailwind","git","axios",
+    "c++","java","sql","data structures"
+  ],
+  "projects": [
+    {
+      "title": "MCP (Micro Collection Partner) System",
+      "description": "MERN system to manage pickup partners, wallets, orders, tracking and notifications.",
+      "links": ["https://github.com/manishk/mcp-example"],
+      "skills": ["react","nodejs","express","mongodb","tailwind","axios,javascript"]
+    },
+    {
+      "title": "DigiVote - Digital Voting System",
+      "description": "Multi-role college voting system with passport-local auth and results publication.",
+      "links": ["https://github.com/manishk/digivote"],
+      "skills": ["express","mongodb","passport","ejs","nodejs"]
+    },
+    {
+      "title": "HashTable vs BST Library (Java)",
+      "description": "Comparative ADT implementation: Hash Table with quadratic probing vs BST.",
+      "links": ["https://github.com/manishk/ht-bst"],
+      "skills": ["java","data structures"]
+    }
+  ],
+  "work": [
+    {
+      "company": "College Projects",
+      "role": "Full-Stack Developer",
+      "startDate": "2024-06",
+      "endDate": "present",
+      "description": "Built MERN apps with auth, dashboards, and project management.",
+      "skills": ["react","nodejs","mongodb"]
+    }
+  ],
+  "links": {
+    "github": "https://github.com/Manish-kumawat31",
+    "linkedin": "https://www.linkedin.com/in/manishkumawat31/"
+  }
+}
