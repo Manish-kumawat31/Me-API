@@ -31,13 +31,13 @@ See `backend/schema.md`.
    - Copy `.env.example` to `.env` and set `MONGO_URI`
    - `npm i`
    - `npm run seed`
-   - `npm run dev` (server at http://localhost:8080)
+   - `npm run dev` (server at [http://localhost:8080](https://me-api-zu8c.onrender.com))
 
 2. Frontend:
    - `cd frontend`
    - `npm i`
    - set `VITE_API_BASE` in `.env` if needed
-   - `npm run dev` (Vite serves at http://localhost:5173)
+   - `npm run dev` (Vite serves at [http://localhost:5173](https://me-api-coral.vercel.app/))
 
 ## Sample cURL
 - Health:
